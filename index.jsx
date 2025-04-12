@@ -6,4 +6,4 @@ export default function Home() {
       <a href="/dashboard">Go to Dashboard</a>
     </div>
   );
-}
+} 
