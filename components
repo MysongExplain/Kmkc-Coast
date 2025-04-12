@@ -22,3 +22,15 @@ const ArtistUploadForm = () => {
 };
 
 export default ArtistUploadForm;
+import React from 'react';
+
+const ArtistDashboard = () => {
+  return (
+    <div>
+      <h2>Your Dashboard</h2>
+      <p>Stats, uploads, and fan comments will appear here.</p>
+    </div>
+  );
+};
+
+export default ArtistDashboard;
