@@ -7,22 +7,3 @@ export default function Home() {
     </div>
   );
 }
-
-export default function Dashboard() {
-  return (
-    <div style={{ padding: 20 }}>
-      <h1>KMKC COAST Artist Dashboard</h1>
-      <p>Upload songs, view stats, and manage your profile here.</p>
-    </div>
-  );
-}
-
-export default function Home() {
-  return (
-    <div style={{ padding: 20 }}>
-      <h1>Welcome to KMKC COAST on MysongExplain</h1>
-      <p>This is the fan-facing home page.</p>
-      <a href="/dashboard">Go to Dashboard</a>
-    </div>
-  );
-}
