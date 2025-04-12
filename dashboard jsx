@@ -1,0 +1,9 @@
+// pages/dashboard.jsx
+export default function Dashboard() {
+  return (
+    <div style={{ padding: 20 }}>
+      <h1>KMKC COAST Artist Dashboard</h1>
+      <p>Upload songs, view stats, and manage your profile here.</p>
+    </div>
+  );
+}
