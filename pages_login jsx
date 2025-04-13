@@ -1,0 +1,18 @@
+export default function Login() {
+  return (
+    <div className="p-6">
+      <h2 className="text-xl font-semibold mb-4">Login</h2>
+      <form className="space-y-4">
+        <div>
+          <label className="block">Email:</label>
+          <input type="email" className="border p-2 w-full" />
+        </div>
+        <div>
+          <label className="block">Password:</label>
+          <input type="password" className="border p-2 w-full" />
+        </div>
+        <button className="bg-blue-500 text-white p-2 rounded">Login</button>
+      </form>
+    </div>
+  );
+}
