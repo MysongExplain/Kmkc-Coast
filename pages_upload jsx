@@ -1,0 +1,22 @@
+export default function Upload() {
+  return (
+    <div className="p-6">
+      <h2 className="text-xl font-semibold mb-4">Upload Song Explanation</h2>
+      <form className="space-y-4">
+        <div>
+          <label className="block">Song Title:</label>
+          <input type="text" className="border p-2 w-full" />
+        </div>
+        <div>
+          <label className="block">Artist Name:</label>
+          <input type="text" className="border p-2 w-full" />
+        </div>
+        <div>
+          <label className="block">Explanation:</label>
+          <textarea className="border p-2 w-full"></textarea>
+        </div>
+        <button className="bg-green-500 text-white p-2 rounded">Submit</button>
+      </form>
+    </div>
+  );
+}
