@@ -1,0 +1,9 @@
+export default function Home() {
+  return (
+    <div style={{ padding: 20 }}>
+      <h1>Welcome to MysongExplain</h1>
+      <p>This is the main page for KMKC COAST.</p>
+      <a href="/dashboard">Go to Dashboard</a>
+    </div>
+  );
+}
