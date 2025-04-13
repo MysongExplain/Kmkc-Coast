@@ -15,4 +15,4 @@ export default function Upload() {
       </form>
     </div>
   );
-}
+} 
